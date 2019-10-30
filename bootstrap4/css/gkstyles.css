@@ -1,0 +1,131 @@
+
+.gks {
+	font-size: 10pt;
+	width: 14rem;
+
+}
+.gkstitle {
+	/* padding: 0.5rem; 
+    background: #aba;*/
+	font-size:9pt;
+	font-weight:bold;
+	color: brown;
+	line-height: 1px;
+}
+.gkstitle2 {
+	font-size:9pt;
+	color: brown;	
+	line-height: 0.3px;
+}
+.album {
+	text-align: center;
+}
+.card {
+	font-size: 9pt;
+}
+.card button {
+	font-size: 9pt;
+	height: 30px;
+    /*background: #aba;*/ 
+}
+.card select {
+	font-size: 9pt;
+	height: 30px;
+	padding-top: 0;
+	padding-bottom: 0;
+	border: solid 1px;
+}
+.card-body {
+	padding-top: 0.1;
+	padding-bottom: 0.5;
+	margin-top: 0;
+	/* background-color: gray; 
+    background: #aba;*/
+}
+.card-header {
+   /* background: #aba;*/
+    color: #000;	
+    padding: 0.2;
+	padding-bottom: 0;
+	padding-top: 0.1;
+
+}
+.card-footer {
+   /* background: #aba;*/
+    color: #000;	
+	padding-top: 0.1;
+    padding: 0.2;
+	padding-bottom: 0;
+
+}
+h6{
+	margin-top: 0;
+	font-size: 10pt;
+	color: brown;
+}
+tr {
+	line-height: 0;
+	padding: 0;
+	margin: 0;
+}
+td {
+	line-height: 0;
+	padding: 0;
+	margin: 0;
+}
+
+form input {
+	border: solid 2px;
+}
+
+table  {
+    background: #fff; 
+}
+thead  {
+    background: brown; 
+}
+
+#dtable {
+	
+	height: 5px;
+	font-size: 14px;
+	line-height: 0.5;
+
+}
+
+#dtable tr td {
+	
+	font-size: 20px;
+	line-height: 0.5;
+
+}
+
+.dataTables_filter input{
+	
+	height: 20px;
+	font-size: 14px;
+	
+}
+#addcommunity {
+	size: 920px;
+}
+#setlocationdiv {
+	background-image: url("images/lion-picture.jpg");
+}
+.cardhdrbtn:hover {
+	/*border-color: #A32824;*/
+	border-color: brown;
+	background-color: ;
+	font-style: bold;
+	border: 1px solid;
+}
+td{
+	line-height: 2;
+	padding: 0;
+	margin: 0;
+}
+td button{
+	line-height: 0;
+	padding: 0;
+	margin: 0;
+}

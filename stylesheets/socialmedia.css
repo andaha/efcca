@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+/* Map Link Rule 
+	Author: Braun Okoi Boniface
+	e-mail: info@ldbraun.net
+	website: www.ldbraun.net
+*/
+
+#socialMedia {
+	/*float:right;
+	background-color:#8EC15C;
+	border-top-left-radius:17px;
+	border-bottom-left-radius:17px;
+	border-top-right-radius:17px;
+	border-bottom-right-radius:17px;
+	width:300px;*/
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#socialMedia .label {
+	line-height:34px;
+	font-weight:bold;
+	float:left;
+	width:130px;
+}
+
+#socialMedia a {
+	display:inline-block;
+}
+
+#socialMedia .facebook {
+	background:transparent url(icons/social.png) no-repeat -126px 0px;
+	height:34px;
+	width:34px;
+}
+#socialMedia .facebook:hover {
+	background:transparent url(icons/social_hover.png) no-repeat -126px 0px;
+	height:34px;
+	width:34px;
+}
+#socialMedia .twitter {
+	background:transparent url(icons/social.png) no-repeat -84px 0px;
+	height:34px;
+	width:34px;
+}
+#socialMedia .twitter:hover {
+	background:transparent url(icons/social_hover.png) no-repeat -84px 0px;
+	height:34px;
+	width:34px;
+}
+#socialMedia .googleplus {
+	background:transparent url(icons/social.png) no-repeat -168px 0px;
+	height:34px;
+	width:34px;
+}
+#socialMedia .googleplus:hover {
+	background:transparent url(icons/social_hover.png) no-repeat -168px 0px;
+	height:34px;
+	width:34px;
+}
+#socialMedia .youtube {
+	background:transparent url(icons/youtube.png) no-repeat 0px 0px;
+	height:34px;
+	width:34px;
+}
+#socialMedia .youtube:hover {
+	background:transparent url(icons/youtube.png) no-repeat -42px 0px;
+	height:34px;
+	width:34px;
+}

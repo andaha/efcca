@@ -1,0 +1,123 @@
+/*
+Bootstrap 3.1 overrides from http://bootply.com
+
+This CSS code should follow the 'bootstrap.css'
+in your HTML file.
+
+license: MIT
+author: bootply.com
+*/
+
+body {
+  padding-top: 70px;
+}
+
+a, a:hover, a:active, a:focus {
+	color:#C33;
+}
+
+/* Custom Navbar custom */
+.navbar-custom {
+  background-color: #d9230f;
+  border-color: #a91b0c;
+}
+.navbar-custom .navbar-brand {
+  /* color: #fac0ba; */
+  color: #fff;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #fac0ba;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #fac0ba;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #a91b0c;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #a91b0c;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #b81e0d;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: transparent;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #a91b0c;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu .divider {
+    background-color: #a91b0c;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #fac0ba;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #fac0ba;
+}
+.navbar-custom .navbar-link:hover {
+  color: #ffffff;
+}
+.navbar-custom .btn-link {
+  color: #fac0ba;
+}
+.navbar-custom .btn-link:hover,
+.navbar-custom .btn-link:focus {
+  color: #ffffff;
+}
+.navbar-custom .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-custom .btn-link:hover,
+.navbar-custom .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-custom .btn-link:focus {
+  color: #cccccc;
+}
+/* End Custom navbar-custom */

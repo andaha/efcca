@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+@author: Braun Boniface
+@E-mail: info@ldbraun.net
+@website: http://www.ldbraun.net
+*/
+
+.frame {
+	border:1px solid transparent;
+	width:120px;
+	/* height:160px; */
+	height:auto;
+	float:left;
+	margin:10px;
+	padding-bottom:5px;
+	text-align:center;
+}
+	
+.frame:hover {
+	border:1px solid #333;
+}
+	
+.frame img {
+	width:110px;
+	height:83px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+	
+.frame a {
+	text-align:center;
+	text-decoration:none;
+}
+	
+.frame a:hover {
+	text-decoration:underline;
+}
+	
+.clear {
+	clear:both;
+}

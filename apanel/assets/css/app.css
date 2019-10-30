@@ -1,0 +1,4 @@
+.link-card:hover {
+    border: 2px solid #5458B3;
+    cursor: pointer;
+}

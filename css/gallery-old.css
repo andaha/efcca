@@ -1,0 +1,39 @@
+.clear {
+	clear:both;
+}
+
+.galleryCat td {
+	width:98px;
+	border:5px solid #000;
+	padding:1px;
+	margin:5px;
+	display:inline-block;
+	height:90px;
+	text-align:center;
+}
+
+.galleryCat td a {
+	text-decoration:none;
+	position:relative;
+	line-height:25px;
+	top:25px;
+	/* color:green; */
+	
+}
+
+.galleryCat td a:hover {
+	text-decoration:underline;
+}
+
+/* 
+.galleryCat li a img {
+	width:90px;
+	height:90px;
+}
+
+.galleryCat li img {
+	width:90px;
+	height:90px;
+}
+*/
+
